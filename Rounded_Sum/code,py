@@ -1,0 +1,22 @@
+import ast,sys
+input_str = sys.stdin.read()
+input_list = ast.literal_eval(input_str)
+
+day_of_the_week = input_list[0]
+is_on_vacation = input_list[1]
+
+# write your code here
+def alarm_clock(day, vacation):
+    time="off"
+    if (day=="Sat" or day=="Sun") and vacation==False:
+        return "10:00"
+    elif(day!="Sat" and day!="Sun") and vacation==False: 
+        return "7:00"
+    elif(day!="Sat" and day!="Sun") and vacation==True: 
+        return "10:00"    
+    else:
+        return time
+
+# do not change the following code
+time = alarm_clock(day_of_the_week, is_on_vacation)
+print(time.lower())
