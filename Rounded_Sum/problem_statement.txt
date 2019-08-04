@@ -1,0 +1,3 @@
+Rounded Sum You're given a list of non-negative integers. 
+Your task is to round the given numbers to the nearest multiple of 10. For instance, 15 should be rounded to 20 whereas 14 should be rounded to 10. After rounding the numbers, find their sum.   Hint: The Python pre-defined function round() rounds off to nearest even number - it round 0.25 to 0.2. You might want to write your own function to round as per your requirement.  
+Sample input (a list): [2, 18, 10]  Sample output (an integer): 30
