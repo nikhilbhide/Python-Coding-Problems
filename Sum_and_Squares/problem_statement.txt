@@ -1,0 +1,10 @@
+You're given a natural number 'n'. First, calculate the sum of squares of all the natural numbers up to 'n'. Then calculate the square of the sum of all natural numbers up to 'n'. Return the absolute difference of these two quantities.
+ 
+For instance, if n=3, then natural numbers up to 3 are: 1, 2 and 3. The sum of squares up to 3 will be 1^2 + 2^2 + 3^2 = 14. The square of the sum of natural numbers up to 3 is (1+2+3)^2=36. The result, which is their absolute difference is 22.
+
+
+Sample input (an integer):
+3
+
+Sample output (an integer):
+22
